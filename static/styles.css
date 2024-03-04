@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(2, 11, 50);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.generalDiv{
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.inputDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.inputDiv input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px gray;
+}
+
+.inputDiv button{
+    width: 20%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(3, 3, 64);
+    color: white;
+    cursor: pointer;
+
+}
+
+.eachTodo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.eachTodo div{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.eachTodo p{
+    font-size: 15px;
+}
+
+.eachTodo button{
+    font-size: 15px;
+    background-color: rgb(3, 3, 79);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.redBtn{
+    background-color: rgb(187, 11, 52) !important;
+}

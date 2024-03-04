@@ -1,0 +1,31 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    
+    <div class="generalDiv">
+
+        <form action="" method="post">
+            {% csrf_token %}
+            
+            <div class="">
+                <h2>Todo App</h2>
+                <div class="inputDiv">
+                    <input type="text" name="newTitle" value={{todo.title}} placeholder="Enter Title">
+                    <button>Add</button>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+
+</body>
+</html>
